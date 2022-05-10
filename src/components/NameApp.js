@@ -9,6 +9,7 @@ export default function Name() {
       <h1 class={styles.heading}>Name App</h1>
 
       <h1>{name}</h1>
+      <button class={styles.button}>Name App</button>
       <button onClick={() => setName("Elizabeth")}>Eliza</button>
       <button onClick={() => setName("Mike")}>Mike</button>
       <button onClick={() => setName("stranger")}>reset</button>

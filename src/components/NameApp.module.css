@@ -1,3 +1,7 @@
 .heading {
   color: green;
 }
+
+.button {
+  justify-content: space-around;
+}
