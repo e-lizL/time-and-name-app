@@ -1,3 +1,14 @@
+/* * {
+ border: 2px solid gray;
+} */
+
+.counterWrapper {
+  width: 300px;
+  border: 1px solid gray;
+  padding: 20px 0 50px;
+}
+
 .heading {
-  color: red;
+  color: #333;
+  text-align: center;
 }

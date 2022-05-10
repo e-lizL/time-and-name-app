@@ -4,7 +4,7 @@ import styles from "./Counter.module.css";
 export default function Counter() {
   const [count, setCount] = useState(0);
   return (
-    <div>
+    <div className={styles.counterWrapper}>
       <h1 className={styles.heading}>Counter App</h1>
       <div className="currentCount">{count}</div>
       <div className="buttonWrapper">
