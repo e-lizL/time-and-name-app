@@ -6,15 +6,15 @@ export default function Counter() {
   return (
     <div className={styles.counterWrapper}>
       <h1 className={styles.heading}>Counter App</h1>
-      <div className="currentCount">{count}</div>
-      <div className="buttonWrapper">
-        <button onClick={() => setCount(count - 1)} className="button">
+      <div className={styles.currentCount}>count</div>
+      <div className={styles.buttonWrapper}>
+        <button onClick={() => setCount(count - 1)} className={styles.button}>
           -
         </button>
-        <button onClick={() => setCount(count + 1)} className="button">
+        <button onClick={() => setCount(count + 1)} className={styles.button}>
           +
         </button>
-        <button onClick={() => setCount(count(0))} className="resetButton">
+        <button onClick={() => setCount(count(0))} className={styles.resetButton}>
           reset
         </button>
       </div>
