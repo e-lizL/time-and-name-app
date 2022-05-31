@@ -12,3 +12,21 @@
   color: #333;
   text-align: center;
 }
+
+.currentCount {
+  text-align: center;
+}
+
+.button.Wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button, .resetButton {
+  padding: 5px 10px;
+  border: none;
+  background: #999;
+  border-radius: 5px;
+  color: white;
+}
